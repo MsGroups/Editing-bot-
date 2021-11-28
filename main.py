@@ -11,12 +11,12 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 Bot = Client(
     "Channel Message Editor Bot",
-    bot_token = os.environ["BOT_TOKEN"],
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"]
+    bot_token = os.environ["1709546567:AAH2eak8uYXCuEiEShu8qc5c0QfCd9ZVBTg"],
+    api_id = int(os.environ["12946793"]),
+    api_hash = os.environ["f236ec1924de3c807316e754371e76ad"]
 )
 
-AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
+AUTH_USERS = set(int(x) for x in os.environ.get("594373881", "1665697388").split())
 
 START_TEXT = """
 Hello {}, I am a channel message editor bot.
